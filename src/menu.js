@@ -1,11 +1,11 @@
-const about = () => {
+const menu = () => {
     const addDivBodyContent = document.createElement('div')
     addDivBodyContent.setAttribute('id','bodyContent')
     content.appendChild(addDivBodyContent)
 
     const bodyContent = document.getElementById('bodyContent');
     const addH3 = document.createElement('h3');
-    addH3.innerHTML = 'About Us'
+    addH3.innerHTML = 'Menu'
     bodyContent.appendChild(addH3)
 
     const p1 = document.createElement('p')
@@ -32,4 +32,4 @@ const about = () => {
     content.appendChild(Footer)
 }
 
-export default about
+export {menu}
