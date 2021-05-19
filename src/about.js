@@ -28,8 +28,14 @@ const about = () => {
     Most of all, we sincerely thank our friends and supporters for 33 wonderful years.')
     bodyContent.appendChild(p3)
 
-    const Footer = document.createElement('Footer')
-    content.appendChild(Footer)
+    const addFooter = document.createElement('Footer')
+    content.appendChild(addFooter);
+
+    const footer = document.getElementsByTagName('Footer')
+
+    const addFooterP = document.createElement('p')
+    addFooterP.innerHTML = 'Developed by Agustín Gramajo Gaitán'
+    footer[0].appendChild(addFooterP)
 }
 
-export default about
+export {about}
