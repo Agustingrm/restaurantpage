@@ -234,6 +234,7 @@ iframe {
     #bodyContent {
         width: 100%;
     }
+}
 
 @media all and (max-width: 400px){
     #bodyContent {
